@@ -1,0 +1,15 @@
+{
+  "coverage": {
+    "@acceptance-app/auth": { "lines": 100, "functions": 100 },
+    "@acceptance-app/config": { "lines": 75, "functions": 85 },
+    "@acceptance-app/db": { "lines": 90, "functions": 30 },
+    "@acceptance-app/domain": { "lines": 95, "functions": 100 },
+    "@acceptance-app/errors": { "lines": 100, "functions": 100 },
+    "@acceptance-app/logger": { "lines": 100, "functions": 65 },
+    "@acceptance-app/observability": { "lines": 95, "functions": 85 },
+    "@acceptance-app/protocol": { "lines": 100, "functions": 100 },
+    "@acceptance-app/realtime": { "lines": 84, "functions": 81 },
+    "@acceptance-app/redis": { "lines": 15, "functions": 65 },
+    "@acceptance-app/web": { "lines": 90, "functions": 85 }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "@acceptance-app/realtime",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "bun test src",
+    "test:integration": "bun ../../scripts/test-integration.ts",
+    "dev": "bun --watch src/start.ts",
+    "start": "NODE_ENV=production bun src/start.ts"
+  },
+  "dependencies": {
+    "@acceptance-app/clock": "workspace:*",
+    "@acceptance-app/config": "workspace:*",
+    "@acceptance-app/db": "workspace:*",
+    "@acceptance-app/logger": "workspace:*",
+    "@acceptance-app/observability": "workspace:*",
+    "@acceptance-app/protocol": "workspace:*",
+    "@acceptance-app/redis": "workspace:*"
+  },
+  "devDependencies": {
+    "riteway": "9.3.0"
+  }
+}
