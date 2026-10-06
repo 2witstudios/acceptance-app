@@ -1,5 +1,7 @@
 # Acceptance App
 
+Acceptance App is the end-to-end acceptance project for the init-offense template: created by `npx init-offense` with a GitHub repository, a PageSpace drive and the review gate, then exercised through one pull request.
+
 **Docs:** [init-offense.pagespace.site](https://init-offense.pagespace.site/) — getting started, the agent workflow and the command reference.
 
 Acceptance App is generated from **init-offense**, a project template that starts a
