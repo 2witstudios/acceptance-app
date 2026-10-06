@@ -265,7 +265,7 @@ conventions page.
 
 <!-- drive:start -->
 
-Drive: not provisioned yet — run `bun drive:bootstrap`
+Drive: "Acceptance App" (`kx805jsw4ws7cv3adt3gfsdk`) · conventions page "Task artifacts and linking" (`irgy7im7b6416190g1xhqbdg`)
 <!-- drive:end -->
 
 Work only on committed tasks: claim `Ready` leaves, advance In Progress to
